@@ -102,6 +102,13 @@ body {
         line-height: 1;
     }
 
+    .subtitle {
+        color: #7a8588;
+        font-size: 24px;
+        font-weight: normal;
+        line-height: 1;
+    }
+
     .social-icons li {
         display: inline;
     }
@@ -122,11 +129,6 @@ body {
             }
             .github {
                 background-image: url(../img/github-32.png);
-                width: 32px;
-                height: 32px;
-            }
-            .quora {
-                background-image: url(../img/quora-32.png);
                 width: 32px;
                 height: 32px;
             }
