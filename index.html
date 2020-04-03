@@ -3,13 +3,9 @@
     <head>
         <meta charset="utf-8">
 
-        <title>aayush</title>
+        <title>Aayush Yadav</title>
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-        <link rel="stylesheet" href="css/style.css">
-
-        <link rel="shortcut icon" type="image/x-icon" href="img/icon.png" />
 
         <!--[if lt IE 9]>
             <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -17,47 +13,159 @@
     </head>
 
     <body>
-        
-        <b>
-            <a href="#">[Resume]</a>
-            <a href="#">[Blog]</a>
-            <a href="#">[Publications]</a>
-        </b>
+        <div id="content">
+            <div id="header">
+                <h1><a href="index.html">Aayush Yadav</a></h1>
+                <h3 class="subtitle">Algorithms, Data Science and Policy</h3> 
+            </div>
 
-        <div class="avatar">
-            <img src="img/avatar.png" alt="Avatar">
-        </div>
+            <div id="top-section" style="display:flex; flex-wrap: wrap;">
+                
+                <br>
+                
+                <div id="avatar">
+                    <a href="img/profile.jpg" target="_blank"><img class="photo" src="img/profile.jpg" alt="Émile Friant, Self Portrait" style="height: 18em"></a>
+                </div>
+    
+                <ul id="profile-links" style="list-style-type:none;">
+                    <li>Master's student in <a href="https://cs.camden.rutgers.edu/">Computer Science at Rutgers University</a></li>
+                    <li>email: aayush [dot] yadav [at] rutgers [dot] edu</li>
+                    <br>
+                    
+                    <br>
+                    <li><a href="https://aayux.github.io/docs/2020-aayushy-cv.pdf" target="_blank">[CV]</a> <a href="#">[Blog]</a> <a href="#">[Google Scholar]</a></li>
+                    <li><a href="https://github.com/aayux/">[GitHub]</a> <a href="http://twitter.com/aayuxyadav/">[Twitter]</a> <a href="http://instagram.com/living35mm/" >[Instagram]</a></li>
+                </ul>
+            </div>
 
-        <div class="content">
-            <h1 class="title">Aayush Yadav</h1>
-            <h2 class="subtitle">Algorithms, Data and Policy</h2>
-            <br>
-            <br>
+            <nav>
+                <a href="#projects">[Projects]</a> <a href="#policy">[Policy Impact]</a> <a href="#publications">[Publications]</a>
+            </nav>
+
+
+            <hr>
+
+            <h3 id="about">About me</h3> 
+
             <p>
-                I am a Master's Student in Computer Science at Rutgers University, with a concentration in Scientific Computing. I am currently studying randomized algorithms applied to self-organizing particle systems under <a href='#'>Dr. Sunil Shende</a>.<br>
-                <br>
-                I also work at the <a href="https://rand.camden.rutgers.edu/">Senator Walter Rand Institiute for Public Affairs</a>, where I help build Bayesian models to assist decision-making in policy.<br>
-                <br>
+                I am currently studying randomized algorithms applied to self-organizing particle systems under <a href='#'>Dr. Sunil Shende</a>.
+                The kind of research area I find myself being drawn towards involve solving theoretical problems in computer science with tangible
+                impact on the real world. Some of my favourite courses have been in the fields of Combinatorial Optimization, Graph Theory and Probabilistic Systems Analysis.
+                <br><br>
+                I also work at the <a href="https://rand.camden.rutgers.edu/">Senator Walter Rand Institiute for Public Affairs</a> 
+                where I help build statistical and computational models to assist decision-making in policy. Our recent work on the shortfalls of
+                the South Jersey healthcare system during the COVID-19 pandemic was a key resource used by local governing bodies.
+                <sup>
+                    <a href="https://www.wsj.com/articles/new-jersey-scrambles-to-expand-hospital-capacity-before-expected-coronavirus-surge-11584896400"><abbr title="The Wall Street Journal">[1]</abbr></a>
+                    <a href="https://www.courierpostonline.com/story/news/2020/03/16/rutgers-university-camden-study-urges-action-prevent-bed-shortage/5061457002/"><abbr title="Courier Post">[2]</abbr></a>
+                    <a href="https://6abc.com/health/action-news-analysis-shortage-of-hospital-beds-possible/6025416/"><abbr title="ABC News">[3]</abbr></a>
+                </sup>
+                <br><br>
                 Prior to joining the program, I was a Data Scientist at <a href="https://paralleldots.com">ParallelDots, Inc.</a> where I worked on Bayesian machine learning methods for solving problems in market research and consumer analytics.<br>
-                <br>
-                Feel free to check out my Github to see some of the projects I have worked on.<br>
-                <br>
-                <br>
-                Location: Philadelphia, PA
             </p>
             
             <p>
-                MS, Computer Science, Rutgers University<br>
-                BE, Computer Science & Engineering, University of Pune<br>
-                e-mail: aayush [dot] yadav [at] rutgers [dot] edu
-            </p>
             
-            <ul class="social-icons">
-                <li><a class="github" href="https://github.com/aayux/" title="GitHub">GitHub</a></li>
-                <li><a class="linkedin" href="https://www.linkedin.com/in/aayushyadav/" title="LinkedIn">LinkedIn</a></li>
-                <li><a class="instagram" href="http://instagram.com/living35mm/" title="Instagram">Instagram</a></li>
-            </ul>
+                <h3 id="projects">Project Highlights</h3>
+                <ul style="list-style-type:none;">
+                    <li>
+                        <div class="badges">
+                            <span></span>
+                        </div>
+                        <a href="https://github.com/aayux/fitfast"><strong>FitFast</strong></a>: Quickly fine-tune language models for your downstream
+                        NLP tasks.
+                    </li>
 
+                    <br>
+
+                    <li>
+                        <div class="badges">
+                            <span></span>
+                        </div>
+                        <a href="https://github.com/aayux/retrogram"><strong>Retrogram</strong></a>: Retrofitted (domain-adapted) word vectors with
+                        Word2Vec skip-gram model.
+                    </li>
+
+                    <br>
+
+                    <li>
+                        <div class="badges">
+                            <span></span>
+                        </div>
+                        <a href="https://github.com/neural-nuts"><strong>Camera2Caption</strong></a>: A Real-time Image Caption Generator.
+                    </li>
+
+                    <!--
+                    <li>
+                        <div class="badges">
+                            <span></span>
+                        </div>
+                        <a href="https://github.com/aayux/#"><strong>Project</strong></a>: description.
+                    </li>
+                    <li>
+                        <div class="badges">
+                            <span></span>
+                        </div>
+                        <a href="https://github.com/aayux/#"><strong>Project</strong></a>: description.
+                    </li>
+                    <li>
+                        <div class="badges">
+                            <span></span>
+                        </div>
+                        <a href="https://github.com/aayux/#"><strong>Project</strong></a>: description.
+                    </li>
+                -->
+                </ul>
+
+                <h3 id="policy">Policy Impact</h3>
+                <ul style="list-style-type:none;">
+                    <li>
+                        <div class="badges">
+                            <span></span>
+                        </div>
+                        <strong>Timing County Hospital Bed Shortfall during COVID-19</strong> (<a href="https://rand.camden.rutgers.edu/files/BRIEF_hospital-shortage-timingFIN.pdf">Summary</a>)
+                        <br>
+                        Senator Walter Rand Institute for Public Affairs and <a href="https://ccib.camden.rutgers.edu">CCIB</a>
+                    </li>
+
+                    <br>
+
+                    <li>
+                        <div class="badges">
+                            <span></span>
+                        </div>
+                        <strong>Regional Health System Shortfalls with a Novel COVID-19 Model</strong> (<a href="https://rand.camden.rutgers.edu/files/COVID-research-brief-with-curves03152020.pdf">Summary</a> | <a href="https://rand.camden.rutgers.edu/files/CovidModelAllredMarch16th_technical.pdf">Model details</a>)
+                        <br>
+                        Senator Walter Rand Institute for Public Affairs and <a href="https://ccib.camden.rutgers.edu">CCIB</a>
+                    </li>
+                </ul>
+
+                <h3 id="publications">Publications</h3>
+
+            
+                <ol class="pubs-list" reversed="reversed", style="list-style-type:none;">
+                    Let's call this a work in progress!
+                    <!--
+                    <li id="pub1">
+                        <mark>New!</mark> <span class="paper">Title</span>
+                        <br>
+                        Author 1, Author 2, <span class="me">Aayush Yadav</span>, Author 4
+                        <br>
+                        <abbr class="conf" title="Conference title">Abbreviated Name</abbr> (<a href="#">to appear</a> | <a href="#">preprint PDF</a>)
+                    </li>
+                    
+                    <br>
+
+                    <li id="pub2">
+                        <span class="paper">Title</span>
+                        <br> Author 1, <span class="me">Aayush Yadav</span>
+                        <br>
+                        <abbr class="conf" title="Conference Title">Abbreviated Name</abbr> (<a href="#">DOI</a> | <a href="#">PDF</a> | <a href="#">GitHub</a>) 
+                    </li>
+                    -->
+                </ol>
+                
+                <hr>
         </div>
     </body>
 </html>
