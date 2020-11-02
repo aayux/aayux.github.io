@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
 
-        <title>Aayush Yadav: Courses</title>
+        <title>Aayush Yadav: Approximation Algorithms</title>
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -27,6 +27,11 @@
                 text-decoration: none;
                 background-color: #701515;
             }
+            
+            p {
+                max-width:75%;
+                word-wrap:break-word;
+            }
         </style>
 
     </head>
@@ -44,8 +49,9 @@
                 
                 <div id="avatar">
                     <figure>
-                        <a href="img/profile.jpg" target="_blank" style="color:#8B0000;"><img class="photo" src="../img/header.png" alt="picture" style="height: auto"></a>
-                        <small><figcaption>Gauss’ drawings on a variant of the Fermat-Torricelli problem on four points (in a letter to Schumacher from March 21, 1836).</figcaption></small>
+                        <a href="img/profile.jpg" target="_blank" style="color:#8B0000;"><img class="photo" src="../img/header-alt.png" alt="picture" style="height: auto"></a>
+                        <small><figcaption>Karl Bopp’s construction for the generalization of the four-point problem (c. 1879), <br>
+                        shown here for five terminal points. We know this problem today as the Euclidean Steiner Tree problem.</figcaption></small>
                     </figure>
                 </div>
             </div>
@@ -58,53 +64,171 @@
             </nav>
 
             <br>
+            
+            <div>
 
-                <div>
+                <p>Syllabus with some notes, slides and exercise problems on Approximation Algorithms based largely on <a href="https://www.springer.com/gp/book/9783540653677" style="color:#8B0000">Vijay Vazirani's textbook</a>. Please reach out to me via email for any comments, questions and/or correction to the material.
+                <br><br>
+                <strong>Course Objective:</strong> To attain sufficient understanding of underlying combinatorial structure of various algorithmic problems, to be able to fully analyse said problems more generally and in the context of approximation.
+                <br><br>
+                <strong>Textbook(s):</strong>
                     <ol class="#" style="list-style-type:none;">
                         <li>
-                            <h4 style="font-family:'Merriweather'">I. Set Cover</h4>
-                            <ol class="#" style="list-style-type:none;">
-                                <li>
-                                    <strong>1. A Greedy Algorithm and Layering</strong>
-                                    <br><a href="https://tinyurl.com/yypg57us" style="color:#8B0000">Slides</a> | <a href="https://tinyurl.com/y3pw8suz" style="color:#8B0000">Exercises</a>
-                                </li>
-                                <br>
-                                <li>
-                                    <strong>2. LP-formulation and Dual-fitting Approximation for Set Cover and Multi-cover</strong>
-                                    <br><a href="https://tinyurl.com/y676hap9" style="color:#8B0000">Exercises</a>
-                                </li>
-                                <br>
-                                <li>
-                                    <strong>3. LP Rounding and the Primal-Dual Schema</strong>
-                                    <br><a href="https://tinyurl.com/y6buj9y4" style="color:#8B0000">Slides</a> | <a href="#" style="color:#8B0000">Exercises</a>
-                                </li>
-                            </ol>
+                            <strong>Approximation Algorithms</strong>
+                            <br>
+                            Vijay V. Vazirani (2003)
                         </li>
-
                         <br>
-
                         <li>
-                            <h4 style="font-family:'Merriweather'">II. Steiner tree and the Travelling Salesperson Problem (TSP)</h4>
-                            <ol class="#" style="list-style-type:none;">
-                                <li>
-                                    <strong>
-                                            4. Metric Steiner Tree , Metric TSP and a 
-                                            Minimum Spanning Tree (MST) based algorithm &nbsp;&nbsp;&nbsp;&nbsp;<mark>Upcoming!</mark>
-                                    </strong><br>
-                                    <a href="#" style="color:#8B0000">Slides</a> | <a href="#" style="color:#8B0000">Exercises</a>
-
-                                </li>
-                            </ol>
+                            <strong>Combinatorial Optimization: Algorithms and Complexity</strong>
+                            <br>
+                            Christos H. Papadimitriou, Kenneth Steiglitz (1982, 1998)
                         </li>
-                        
-                        <br>
+                </p>
+            </div>
 
-                        <li>
-                            <h4 style="font-family:'Merriweather'">... more content in the works.</h4>
-                        </li>
+            <br>
 
-                    </ol>
+            <div id="middle-section">
+                
+                <br>
+                
+                <div id="avatar">
+                    <figure>
+                        <a href="img/profile.jpg" target="_blank" style="color:#8B0000;"><img class="photo" src="../img/header.png" alt="picture" style="height: auto"></a>
+                        <small><figcaption>Gauss’ drawings on a variant of the Fermat-Torricelli problem on four points (in a letter to Schumacher from March 21, 1836).</figcaption></small>
+                    </figure>
                 </div>
+            </div>
+
+            <br>
+
+            <h3 style="font-family:'Merriweather'">Course Outline</h3>
+            <div>
+                <ol class="#" style="list-style-type:none;">
+                    <li>
+                        <h4 style="font-family:'Merriweather'">0. Topics in Linear Programming</h4>
+                        <ol class="#" style="list-style-type:none;">
+                            <li>
+                                <strong>1. The Simplex Algorithm</strong>
+                                <br><a href="#" style="color:#000000">Notes</a>
+                            </li>
+                            <br>
+                            <li>
+                                <strong>2. LP-Duality and Totally Unimodular Matrices</strong>
+                                <br><a href="https://tinyurl.com/y66eaomu" style="color:#8B0000">Notes</a>
+                            </li>
+                            <br>
+                            <li>
+                                <strong>3. Computational Considerations of the Simplex Algorithm</strong>
+                                <br><a href="#" style="color:#000000">Notes</a>
+                            </li>
+                            <br>
+                            <li>
+                                <strong>4. Primal-Dual Algorithm</strong>
+                                <br><a href="#" style="color:#000000">Notes</a>
+                            </li>
+                            <br>
+                            <li>
+                                <strong>5. Spanning Trees and Matroids</strong>
+                                <br><a href="#" style="color:#000000">Notes</a>
+                            </li>
+                            <br>
+                            <li>
+                                <strong>6. Integer Linear Programming and Ellipsoid Solver</strong>
+                                <br><a href="#" style="color:#000000">Notes</a>
+                            </li>
+                        </ol>
+                    </li>
+
+                    <br>
+
+                    <li>
+                        <h4 style="font-family:'Merriweather'">I. Algorithms for Set Cover</h4>
+                        <ol class="#" style="list-style-type:none;">
+                            <li>
+                                <strong>1. A Greedy Algorithm and Layering</strong>
+                                <br><a href="https://tinyurl.com/yypg57us" style="color:#8B0000">Slides</a> | <a href="https://tinyurl.com/y3pw8suz" style="color:#8B0000">Exercises</a>
+                            </li>
+                            <br>
+                            <li>
+                                <strong>2. LP-formulation and Dual-fitting Approximation for Set Cover and Multi-cover</strong>
+                                <br><a href="https://tinyurl.com/y676hap9" style="color:#8B0000">Exercises</a>
+                            </li>
+                            <br>
+                            <li>
+                                <strong>3. LP Rounding and the Primal-Dual Schema</strong>
+                                <br><a href="https://tinyurl.com/y6buj9y4" style="color:#8B0000">Slides</a> | <a href="#" style="color:#8B0000">Exercises</a>
+                            </li>
+                        </ol>
+                    </li>
+
+                    <br>
+
+                    <li>
+                        <h4 style="font-family:'Merriweather'">II. Steiner tree and the Travelling Salesperson Problem (TSP)</h4>
+                        <ol class="#" style="list-style-type:none;">
+                            <li>
+                                <strong>
+                                        1. Metric Steiner Tree , Metric TSP and a 
+                                        Minimum Spanning Tree (MST) based algorithm
+                                </strong><br>
+                                <a href="#" style="color:#8B0000">Slides</a> | <a href="#" style="color:#8B0000">Exercises</a>
+                            </li>
+                            <br>
+                            <li>
+                                <strong>2. Euclidean TSP&nbsp;&nbsp;&nbsp;&nbsp;<mark>Upcoming!</mark></strong>
+                                <br><a href="#" style="color:#000000">Slides</a> | <a href="#" style="color:#000000">Exercises</a>
+                            </li>
+                            <br>
+                            <li>
+                                <strong>3. Steiner Forest</strong>
+                                <br><a href="#" style="color:#000000">Slides</a> | <a href="#" style="color:#000000">Exercises</a>
+                            </li>
+                            <br>
+                            <li>
+                                <strong>4. Steiner Network</strong>
+                                <br><a href="#" style="color:#000000">Slides</a> | <a href="#" style="color:#000000">Exercises</a>
+                            </li>
+                        </ol>
+                    </li>
+                    
+                    <br>
+
+                    <li>
+                        <h4 style="font-family:'Merriweather'">III. Graph Cuts</h4>
+                        <ol class="#" style="list-style-type:none;">
+                            <li>
+                                <strong>1. Multiway Cut and k-Cut
+                                </strong><br>
+                                <a href="#" style="color:#8B0000">Slides</a> | <a href="#" style="color:#000000">Exercises</a>
+                            </li>
+                            <br>
+                            <li>
+                                <strong>2. Multicut and Integer Multicommodity in Trees</strong>
+                                <br><a href="#" style="color:#000000">Slides</a> | <a href="#" style="color:#000000">Exercises</a>
+                            </li>
+                            <br>
+                            <li>
+                                <strong>3. Multiway Cut re-visited</strong>
+                                <br><a href="#" style="color:#000000">Slides</a> | <a href="#" style="color:#000000">Exercises</a>
+                            </li>
+                            <br>
+                            <li>
+                                <strong>4. Multicut in General Graphs</strong>
+                                <br><a href="#" style="color:#000000">Slides</a> | <a href="#" style="color:#000000">Exercises</a>
+                            </li>
+                        </ol>
+                    </li>
+
+                    <br>
+
+                    <li>
+                        <h4 style="font-family:'Merriweather'">... more content in the works.</h4>
+                    </li>
+
+                </ol>
+            </div>
         </div>
     </body>
 </html>
