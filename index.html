@@ -18,18 +18,23 @@
             }
 
             a.nav-menu {
-                color:#DDDDDD; 
+                color:#FFFFFF; 
                 text-decoration: none;
             }
 
             a.nav-menu:hover {
-                color:#DDDDDD; 
+                color:#FAFF9C; 
                 text-decoration: none;
-                background-color: #701515;
+                background-color: #007A1F;
             }
+            
             p {
                 max-width:75%;
                 word-wrap:break-word;
+            }
+            mark {
+                color:#000000;
+                background-color:#FAFF9C;
             }
         </style>
         <!--[if lt IE 9]>
@@ -49,29 +54,28 @@
                 
                 <div id="avatar">
                     <figure>
-                        <a href="img/profile.jpg" target="_blank" style="color:#8B0000;"><img class="photo" src="img/emile-friant.jpg" alt="picture" style="height: 20em"></a>
-                        <small><figcaption>Émile Friant in a self portrait</figcaption></small>
+                        <a href="img/profile.png" target="_blank" style="color:#007A1F;"><img class="photo" src="img/profile.png" alt="a picture of me" style="height: 10em"></a>
                     </figure>
                 </div>
     
                 <ul id="profile-links" style="list-style-type:none;">
-                    <li><h3>Algorithms, Data Science and Policy</h3></li>
-                    <li>Master's student in <a href="https://cs.camden.rutgers.edu/" style="color:#8B0000">Computer Science at Rutgers University</a></li>
-                    <li font-size: 10px style="font-family:'Roboto Mono'">aayush [dot] yadav [at] rutgers [dot] edu</li>
+                    <li><h3></h3></li>
+                    <li><strong>PhD student in <a href="https://cs.gmu.edu/" style="color:#007A1F">Computer Science</a></strong></li>
+                    <li><strong>at <a href="https://www2.gmu.edu/" style="color:#007A1F">George Mason University</a></strong></li>
+                    <li font-size: 10px style="font-family:'Roboto Mono'">ayadav5 [at] gmu [dot] edu</li>
 
                     <br>
 
                     <li>
-                        <a href="https://github.com/aayux/"style="text-decoration: none; color:#8B0000">[GitHub]</a> 
-                        <a href="https://aayux.github.io/docs/2020-aayushy-cv.pdf" target="_blank"style="text-decoration: none; color:#8B0000">[CV]</a> 
+                        <a href="https://github.com/aayux/"style="text-decoration: none; color:#007A1F">[GitHub]</a> 
+                        <a href="https://aayux.github.io/docs/ayadav-cv-2021.pdf" target="_blank"style="text-decoration: none; color:#007A1F">[CV]</a> 
                     </li>
                 </ul>
             </div>
 
-            <nav style="background-color: #8B0000;">
+            <nav style="background-color: #007A1F;">
                 <strong>
-                        <a class="nav-menu" href="#projects">Projects</a>&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a class="nav-menu" href="#publications">Publications</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a class="nav-menu" href="research.html">Research</a>&nbsp;&nbsp;&nbsp;&nbsp;
                         <a class="nav-menu" href="reading.html">Readings</a>&nbsp;&nbsp;&nbsp;&nbsp;
                         <a class="nav-menu" href="courses.html">Courses</a>
                 </strong>
@@ -80,129 +84,45 @@
             <br>
 
             <p>
-                I am currently studying stochastic algorithms for self-organizing particle systems under 
-                <a href="https://shende.camden.rutgers.edu" style="color:#8B0000">Dr. Sunil Shende</a>. I enjoy solving problems in theoretical computer science and algorithm 
-                design that require some degree of combinatorial thinking and/or probabilistic analysis.
+                I enjoy solving problems in theoretical computer science and 
+                algorithm design that require some degree of probabilistic analysis.
+
+                Somewhat laterally, I am also interested in the impact of 
+                data-driven algorithms on social groups in the context of 
+                privacy, fairness and equitable social outcomes.
+
                 <br><br>
-                It is also important to me that I am able to work on problems that have positive
-                social impact. I am part of the Research and Evaluation team at <a href="https://rand.camden.rutgers.edu/" style="color:#8B0000"> 
-                Senator Walter Rand Institiute for Public Affairs</a> where I help build statistical models to assist decision-making 
-                in public health policy. Our work on the shortfalls of the South Jersey healthcare system during the COVID-19 pandemic has 
-                been a key resource used by local and state governing bodies<sup><a href="#policy" style="color:#8B0000">[see coverage]</a></sup>.
+
+                In addition to computer science and mathematics, I also study the rhetoric
+                of university admissions with my wonderful partner, Erin Miller.
+
+                <br><br>
+
+                Graduate education is a big decision for anyone, perhaps more so
+                if you are an international student. The application process can 
+                seem rather opaque and awfully perplexing. If you are an aspiring 
+                STEM graduate student, please feel free to reach out with 
+                questions.
+
+                <br><br>
             </p>
 
             <br>
 
             <hr>
             
-                <h3 id="projects" style="font-family:'Merriweather'">Project Highlights</h3>
-                <ul style="list-style-type:none;">
-                    <li>
-                        <div class="badges">
-                            <span></span>
-                        </div>
-                        <a href="content/pymoebots.html" style="color:#8B0000"><strong>Pymoebots</strong></a>: Stochastic Algorithms simulator for the Amoebot Model.
-                    </li>
-                    
-                    <br>
-                    
-                    <li>
-                        <div class="badges">
-                            <span></span>
-                        </div>
-                        <a href="https://github.com/aayux/fitfast" style="color:#8B0000"><strong>FitFast</strong></a>: Quickly fine-tune language models for your downstream
-                        NLP tasks.
-                    </li>
-
-                    <br>
-
-                    <li>
-                        <div class="badges">
-                            <span></span>
-                        </div>
-                        <a href="https://github.com/aayux/retrogram" style="color:#8B0000"><strong>Retrogram</strong></a>: Retrofitted (domain-adapted) word vectors with
-                        Word2Vec skip-gram model.
-                    </li>
-
-                    <br>
-
-                    <li>
-                        <div class="badges">
-                            <span></span>
-                        </div>
-                        <a href="https://github.com/neural-nuts" style="color:#8B0000"><strong>Camera2Caption</strong></a>: A Real-time Image Caption Generator.
-                    </li>
-                </ul>
-
-                <h3 id="policy" style="font-family:'Merriweather'">Policy Impact</h3>
-                <ul style="list-style-type:none;">
-                    <li>
-                        <div class="badges">
-                            <span></span>
-                        </div>
-                        <strong>Timing County Hospital Bed Shortfall during COVID-19</strong> (<a href="https://rand.camden.rutgers.edu/files/BRIEF_hospital-shortage-timingFIN.pdf" style="color:#8B0000">Brief</a>)
-                        <br>
-                        Senator Walter Rand Institute for Public Affairs and <a href="https://ccib.camden.rutgers.edu" style="color:#8B0000">CCIB</a>
-                    </li>
-
-                    <br>
-
-                    <li>
-                        <div class="badges">
-                            <span></span>
-                        </div>
-                        <strong>Regional Health System Shortfalls with a Novel COVID-19 Model</strong> (<a href="https://rand.camden.rutgers.edu/files/COVID-research-brief-with-curves03152020.pdf" style="color:#8B0000">Brief</a> | <a href="https://rand.camden.rutgers.edu/files/CovidModelAllredMarch16th_technical.pdf" style="color:#8B0000">Model details</a>)
-                        <br>
-                        Senator Walter Rand Institute for Public Affairs and <a href="https://ccib.camden.rutgers.edu" style="color:#8B0000">CCIB</a>
-                    </li>
-
-                    <br>
-
-                    <li>
-                        <sup>
-                            <strong>Coverage:</strong> <a href="https://www.wsj.com/articles/new-jersey-scrambles-to-expand-hospital-capacity-before-expected-coronavirus-surge-11584896400" style="color:#8B0000"><abbr title="The Wall Street Journal">[1]</abbr></a>
-                            <a href="https://www.courierpostonline.com/story/news/2020/03/16/rutgers-university-camden-study-urges-action-prevent-bed-shortage/5061457002/" style="color:#8B0000"><abbr title="Courier Post">[2]</abbr></a>
-                            <a href="https://6abc.com/health/action-news-analysis-shortage-of-hospital-beds-possible/6025416/" style="color:#8B0000"><abbr title="ABC News">[3]</abbr></a>
-                        </sup>
-                    </li>
-                </ul>
-
-
-                <h3 id="publications" style="font-family:'Merriweather'">Publications</h3>
-
-            
-                <ol class="pubs-list" reversed="reversed" style="list-style-type:none;">
-                    Let's call this a work in progress!
-                    <!--
-                    <li id="pub1">
-                        <mark>New!</mark> <span class="paper">Title</span>
-                        <br>
-                        Author 1, Author 2, <span class="me">Aayush Yadav</span>, Author 4
-                        <br>
-                        <abbr class="conf" title="Conference title">Abbreviated Name</abbr> (<a href="#">to appear</a> | <a href="#">preprint PDF</a>)
-                    </li>
-                    
-                    <br>
-
-                    <li id="pub2">
-                        <span class="paper">Title</span>
-                        <br> Author 1, <span class="me">Aayush Yadav</span>
-                        <br>
-                        <abbr class="conf" title="Conference Title">Abbreviated Name</abbr> (<a href="#">DOI</a> | <a href="#">PDF</a> | <a href="#">GitHub</a>) 
-                    </li>
-                    -->
-                </ol>
-
                 <h3 id="teaching" style="font-family:'Merriweather'">Teaching</h3>
 
                 <ol class="teach-list" reversed="reversed" style="list-style-type:none;">
                     <li id="teach1">
-                        <strong>CS 111-2 Programming Fundamentals (Lab)</strong>
-                        <br><a href="content/cs111-2.html" style="color:#8B0000">Information</a> | <a href="http://crab.rutgers.edu/~shende/cs111/" style="color:#8B0000">CS 111-1 Course Home</a>
+                        <strong>[FA '20, SP '21] CS 111-2 Programming Fundamentals (Lab)</strong>
+                        <br> Rutgers University, Camden
+                        <br><a href="content/cs111-2.html" style="color:#007A1F">Information</a> | <a href="http://crab.rutgers.edu/~shende/cs111/" style="color:#007A1F">CS 111-1 Course Home</a>
                     </li>
                 </ol>
                 
-                <hr>
+            <hr>
+        
         </div>
     </body>
 </html>
