@@ -1,0 +1,12 @@
+body {
+    margin-top: 40px;
+}
+
+.content {
+    max-width: 625px;
+}
+
+.sc,
+small-caps {
+    font-variant: small-caps;
+}

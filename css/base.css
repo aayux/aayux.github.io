@@ -1,0 +1,92 @@
+body {
+    font-family: 'Lora';
+    padding-left: 20px;
+    color: #e8e8e9;
+    background-color: #232635;
+}
+
+.content {
+    margin: auto;
+    padding: 10px;
+}
+
+.center {
+    text-align: center;
+}
+
+p {
+    max-width: 90%;
+    line-height: 1.5;
+    word-wrap: break-word;
+}
+
+mark {
+    color: #e8e8e9;
+    background: none;
+}
+
+.pubs-list {
+    list-style-type: none;
+}
+
+.serif-heading {
+    font-family: 'Merriweather';
+}
+
+a.title {
+    color: #e8e8e9;
+    text-decoration: none;
+}
+
+a.title:hover {
+    color: #6e77a5;
+    text-decoration: none;
+}
+
+.ref-link {
+    color: #6e77a5;
+    text-decoration: none;
+}
+
+.icon-link {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.125em;
+    fill: currentColor;
+}
+
+.icon-lg {
+    width: 2em;
+    height: 2em;
+}
+
+.accent {
+    color: #6e77a5;
+}
+
+.muted {
+    color: #bfc6eb;
+}
+
+.photo {
+    height: 10em;
+    pointer-events: none;
+}
+
+.btn {
+    color: #e8e8e9;
+    padding: 0px;
+    padding-right: 15px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: #6e77a5;
+}

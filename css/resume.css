@@ -1,0 +1,11 @@
+body {
+    margin-top: 100px;
+}
+
+.content {
+    max-width: 625px;
+}
+
+p {
+    line-height: 1.8;
+}

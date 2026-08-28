@@ -9,78 +9,38 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="robots" content="noindex">
 
-        <link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet'>
-        <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet'>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-
-        <style>
-            body {
-                font-family: 'Lora';
-                padding-left: 20px;
-                color: #e8e8e9;
-                background-color: #232635;;
-                margin-top: 40px;
-            }
-
-            .content {
-                max-width: 625px;
-                margin: auto;
-                background: #232635;
-                padding: 10px;
-                }
-
-            p {
-                max-width:90%;
-                line-height:1.4;
-                word-wrap:break-word;
-            }
-            .sc,
-            small-caps {
-                font-variant: small-caps;
-            }
-            mark {
-                color:#e8e8e9;
-                background-color:#232635;
-            }
-            .btn {
-                color: #e8e8e9;
-                padding: 0px;
-                padding-right: 15px;
-                border: none;
-                background: none;
-                cursor: pointer;
-            }
-            .btn:hover {
-            color: #6e77a5;
-            }
-        </style>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lora&family=Merriweather&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/base.css?v=1787894440">
+        <link rel="stylesheet" href="css/background.css?v=1787894440">
+        <link rel="stylesheet" href="css/subpage.css?v=1787894440">
     </head>
 
     <body>
         <div class="content">
-            
+
             <div class="header">
-                <h3 style="font-family:'Merriweather'">
-                    <button class="btn"><a href="index.html" class="fa-solid fa-circle-arrow-left" style="text-decoration: inherit; color: inherit;"></a></button>
-                    <a href="#" style="color:#6e77a5; text-decoration: none;">Research</a>
+                <h3 class="serif-heading">
+                    <button class="btn"><a href="index.html" class="icon-link" aria-label="Back"><svg class="icon" viewBox="0 0 512 512" aria-hidden="true"><path d="M512 256A256 256 0 1 0 0 256a256 256 0 1 0 512 0zM215 127c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-71 71L392 232c13.3 0 24 10.7 24 24s-10.7 24-24 24l-214.1 0 71 71c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0L103 273c-9.4-9.4-9.4-24.6 0-33.9L215 127z"/></svg></a></button>
+                    <a href="#" class="ref-link">Research</a>
                 </h3>
             </div>
 
-            <h3 id="publications" style="font-family:'Merriweather'">Manuscripts&nbsp;&nbsp;&nbsp;&nbsp;<button class="btn"><a href="https://scholar.google.com/citations?user=3VRTK1cAAAAJ&hl=en" class="ai ai-google-scholar" style="text-decoration: inherit; color: inherit;"></a></button> </h3>
-            <ol class="pubs-list" reversed="reversed" style="list-style-type:none;">
+            <h3 id="publications" class="serif-heading">Manuscripts&nbsp;&nbsp;&nbsp;&nbsp;<button class="btn"><a href="https://scholar.google.com/citations?user=3VRTK1cAAAAJ&hl=en" class="icon-link" aria-label="Google Scholar"><svg class="icon" viewBox="0 0 384 512" aria-hidden="true"><path d="M343.75868,106.66243 V 79.430205 L 363.52365,63.999997 H 149.63354 L 20.476345,176.2736 h 85.656075 c -0.15534,2.12494 -0.21914,4.04644 -0.21914,6.22563 0,20.84472 7.2192,38.08662 21.67203,51.86089 14.45284,13.79702 32.25124,20.64784 53.32651,20.64784 4.92319,0 9.75059,-0.36794 14.43842,-1.02419 -2.90722,6.50082 -4.37457,12.52302 -4.37457,18.14228 0,9.87526 4.49924,20.4304 13.46715,31.6418 -39.23377,2.6705 -68.06112,9.73264 -86.43702,21.16322 -10.53108,6.49907 -19.000207,14.70396 -25.390349,24.5311 -6.390569,9.89933 -9.577754,20.51525 -9.577754,31.9616 0,9.64822 2.062375,18.33611 6.21907,26.06233 4.156694,7.7263 9.577757,14.07047 16.312223,18.98408 6.71825,4.96781 14.46899,9.10088 23.219,12.46874 8.73429,3.34378 17.40643,5.71858 26.06106,7.06258 8.62707,1.34222 17.20471,1.9985 25.70579,1.9985 13.46887,0 26.95353,-1.73428 40.54711,-5.18707 13.56165,-3.48461 26.28022,-8.64143 38.17105,-15.4927 11.85935,-6.80488 21.51545,-16.0865 28.9219,-27.7183 7.39024,-11.67998 11.09457,-24.80499 11.09457,-39.33613 0,-11.01584 -2.24964,-21.03852 -6.7502,-30.14073 -4.46864,-9.07202 -9.93785,-16.54102 -16.45271,-22.34403 -6.5008,-5.81263 -12.99987,-11.15539 -19.51512,-15.9679 -6.50083,-4.84488 -12.00021,-9.75058 -16.46884,-14.8129 -4.4848,-5.04657 -6.73444,-10.05419 -6.73444,-14.98395 0,-4.92145 1.73422,-9.67183 5.21588,-14.26559 3.45451,-4.6095 7.67376,-9.04795 12.60967,-13.30571 4.93756,-4.24944 9.87523,-8.96788 14.79665,-14.13302 4.92147,-5.14719 9.14072,-11.82739 12.60971,-20.00822 3.48467,-8.17907 5.20318,-17.44489 5.20318,-27.75679 0,-13.4527 -2.54714,-24.46065 -7.54735,-33.31348 -0.59369,-1.02243 -1.21757,-1.80338 -1.87511,-3.02225 l 56.90745,-46.672136 v 17.118526 c -7.39373,0.92969 -6.62422,5.34582 -6.62422,10.6352 v 128.66719 c 0,5.95832 4.8751,10.83382 10.83386,10.83382 h 3.98869 c 5.95835,0 10.83386,-4.87506 10.83386,-10.83382 V 117.29282 c 0,-5.27669 0.77741,-9.68801 -6.56167,-10.63039 z M 236.39865,329.14114 c 1.14099,0.7503 3.7039,2.78075 7.7184,6.03838 4.0495,3.24319 6.797,5.69582 8.26567,7.41432 1.43851,1.66381 3.5792,4.16501 6.37617,7.54734 2.81268,3.3744 4.7184,6.30394 5.71853,8.73425 1.00016,2.4767 2.01603,5.46089 3.04636,8.94556 0.98567,3.44488 1.48486,6.97595 1.48486,10.56169 0,17.04813 -6.56338,29.68007 -19.65604,37.85915 -13.125,8.18083 -28.76651,12.27368 -46.93767,12.27368 -9.18709,0 -18.2031,-1.09289 -27.06247,-3.1951 -8.84322,-2.11665 -17.31192,-5.3362 -25.39035,-9.60185 -8.07846,-4.25771 -14.57754,-10.20337 -19.50072,-17.79659 -4.93764,-7.64012 -7.40645,-16.41464 -7.40645,-26.24962 0,-10.32022 2.79692,-19.28987 8.42233,-26.90588 5.59343,-7.62564 12.93774,-13.3919 22.03208,-17.3154 9.0624,-3.94582 18.24946,-6.74232 27.56166,-8.39827 9.31221,-1.7023 18.79679,-2.555 28.43842,-2.555 4.46862,0 7.93582,0.25115 10.40465,0.69607 0.45456,0.21918 3.03188,2.07025 7.73456,5.56326 4.70401,3.46237 7.62565,5.59519 8.75047,6.38401 z m -3.35823,-100.5779 c -7.40648,8.85938 -17.73454,13.2882 -30.95363,13.2882 -11.85933,0 -22.29766,-4.76482 -31.26554,-14.31195 -8.99984,-9.52309 -15.42235,-20.32803 -19.34408,-32.43061 -3.93752,-12.10871 -5.90585,-23.98423 -5.90585,-35.648 0,-13.6942 3.59542,-25.35184 10.7809,-34.97598 7.18727,-9.64952 17.49915,-14.48477 30.93786,-14.48477 11.87507,0 22.37423,5.03825 31.43704,15.15677 9.09434,10.08482 15.60961,21.41303 19.5169,33.96799 3.92176,12.5392 5.87345,24.52979 5.87345,35.98399 0,13.44658 -3.70256,24.60984 -11.07663,33.45436 z"/></svg></a></button> </h3>
+            <ol class="pubs-list" reversed="reversed">
                 <li id="paper-10">
                     <span class="conference"><strong>Cryptocurrency-backed Trustless Anonymous Tokens and their Applications</strong></span>
                     <br><small>A. Agarwal, K. Babel, S. Das, A. Juels, P. Rindal, A. Yadav</small><br>
-                    <small><a href="https://ia.cr/2026/1074" style="text-decoration: none; color:#6e77a5">[eprint]</a></small>
+                    <small><a href="https://ia.cr/2026/1074" class="ref-link">[eprint]</a></small>
                 </li>
-                
+
                 <br>
 
                 <li id="paper-9">
                     <span class="conference"><strong>Non-interactive Blind Signatures with Threshold Issuance</strong></span>
                     <br><small>F. Baldimtsi, L. Hanzlik, A. Yadav</small><br>
-                    <small><a href="https://ia.cr/2026/400" style="text-decoration: none; color:#6e77a5">[eprint]</a></small>
+                    <small><a href="https://ia.cr/2026/400" class="ref-link">[eprint]</a></small>
                 </li>
 
                 <br>
@@ -88,17 +48,17 @@
                 <li id="paper-8">
                     <span class="conference"><strong>Homomorphic NIZKs and Maliciously-secure MPC with Optimal Communication Complexity from Standard Assumptions</strong></span>
                     <br><small>A. Afshar, J. Cheng, R. Goyal, A. Yadav, S. Yadugiri</small><br>
-                    <small><a href="https://ia.cr/2024/1806" style="text-decoration: none; color:#6e77a5">[eprint]</a></small>
+                    <small><a href="https://ia.cr/2024/1806" class="ref-link">[eprint]</a></small>
                 </li>
             </ol>
-            
-            <h3 id="publications" style="font-family:'Merriweather'">Publications</h3>
-            <ol class="pubs-list" reversed="reversed" style="list-style-type:none;">
+
+            <h3 id="publications" class="serif-heading">Publications</h3>
+            <ol class="pubs-list" reversed="reversed">
 
                 <li id="paper-7">
                     <span class="conference"><strong><small-caps>Atlantis</small-caps>: Lattice-based Anonymous Tokens with a Private Metadata Bit</strong></span>
                     <br><small>F. Baldimtsi, A. Yadav</small><br>
-                    <small><abbr class="conf" title="15th International Conference on Security and Cryptography for Networks">SCN '26</abbr>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" style="text-decoration: none; color:#6e77a5">[doi]</a>&nbsp;&nbsp;<a href="https://ia.cr/2026/1248" style="text-decoration: none; color:#6e77a5">[eprint]</a></small>
+                    <small><abbr class="conf" title="15th International Conference on Security and Cryptography for Networks">SCN '26</abbr>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" class="ref-link">[doi]</a>&nbsp;&nbsp;<a href="https://ia.cr/2026/1248" class="ref-link">[eprint]</a></small>
                 </li>
 
                 <br>
@@ -106,7 +66,7 @@
                 <li id="paper-6">
                     <span class="conference"><strong>Non-interactive Anonymous Tokens with Private Metadata bit</strong></span>
                     <br><small>F. Baldimtsi, L. Hanzlik, Q. Nguyen, A. Yadav</small><br>
-                    <small><abbr class="conf" title="33rd ACM Conference on Computer and Communications Security">CCS '26</abbr>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" style="text-decoration: none; color:#6e77a5">[doi]</a>&nbsp;&nbsp;<a href="https://ia.cr/2025/430" style="text-decoration: none; color:#6e77a5">[eprint]</a>&nbsp;&nbsp;<a href="https://github.com/aayux/mcl" style="text-decoration: none; color:#6e77a5">[code]</a></small>
+                    <small><abbr class="conf" title="33rd ACM Conference on Computer and Communications Security">CCS '26</abbr>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" class="ref-link">[doi]</a>&nbsp;&nbsp;<a href="https://ia.cr/2025/430" class="ref-link">[eprint]</a>&nbsp;&nbsp;<a href="https://github.com/aayux/mcl" class="ref-link">[code]</a></small>
                 </li>
 
                 <br>
@@ -114,7 +74,7 @@
                 <li id="paper-5">
                     <span class="conference"><strong>Weighted Batched Threshold Encryption with Applications to Mempool Privacy</strong></span>
                     <br><small>A. Agarwal, K. Babel, S. Das, B.P. Gilkalaye, A. Mondal, B. Pinkas, P. Rindal, A. Yadav</small><br>
-                    <small><abbr class="conf" title="47th IEEE Symposium on Security and Privacy">S&P '26</abbr>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#6e77a5;">&diams;</span><span style="color:#bfc6eb;"> Distinguished paper award </span> <span style="color:#6e77a5;">&diams;</span>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://doi.org/10.1109/SP63933.2026.00175" style="text-decoration: none; color:#6e77a5">[doi]</a>&nbsp;&nbsp;<a href="https://ia.cr/2025/2115" style="text-decoration: none; color:#6e77a5">[eprint]</a></small>
+                    <small><abbr class="conf" title="47th IEEE Symposium on Security and Privacy">S&P '26</abbr>&nbsp;&nbsp;&nbsp;&nbsp;<span class="accent">&diams;</span><span class="muted"> Distinguished paper award </span> <span class="accent">&diams;</span>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://doi.org/10.1109/SP63933.2026.00175" class="ref-link">[doi]</a>&nbsp;&nbsp;<a href="https://ia.cr/2025/2115" class="ref-link">[eprint]</a></small>
                     &nbsp;&nbsp;&nbsp;&nbsp; <small>(also at <abbr class="conf" title="The Science of Blockchain Conference">SBC '26</abbr>)</small>
                 </li>
 
@@ -123,7 +83,7 @@
                 <li id="paper-4">
                     <span class="conference"><strong>Batched & Non-interactive Blind Signatures from Lattices</strong></span>
                     <br><small>F. Baldimtsi, R. Goyal, A. Yadav</small><br>
-                    <small><abbr class="conf" title="29th IACR International Conference on Practice and Theory of Public-Key Cryptography">PKC '26</abbr>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://doi.org/10.1007/978-3-032-26731-3_7" style="text-decoration: none; color:#6e77a5">[doi]</a>&nbsp;&nbsp;<a href="https://ia.cr/2025/1771" style="text-decoration: none; color:#6e77a5">[eprint]</a></small>
+                    <small><abbr class="conf" title="29th IACR International Conference on Practice and Theory of Public-Key Cryptography">PKC '26</abbr>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://doi.org/10.1007/978-3-032-26731-3_7" class="ref-link">[doi]</a>&nbsp;&nbsp;<a href="https://ia.cr/2025/1771" class="ref-link">[eprint]</a></small>
                 </li>
 
                 <br>
@@ -131,7 +91,7 @@
                 <li id="paper-3">
                     <span class="conference"><strong>Zero-knowledge Authenticator for Blockchain: Policy-private and Obliviously Updateable</strong></span>
                     <br><small>K.K. Chalkias, D. Maram, A. Roy, J. Wang, A. Yadav</small><br>
-                    <small><abbr class="conf" title="7th International Conference on Advances in Financial Technologies">AFT '25</abbr>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://doi.org/10.4230/LIPIcs.AFT.2025.2" style="text-decoration: none; color:#6e77a5">[doi]</a>&nbsp;&nbsp;<a href="https://ia.cr/2025/921" style="text-decoration: none; color:#6e77a5">[eprint]</a></small>
+                    <small><abbr class="conf" title="7th International Conference on Advances in Financial Technologies">AFT '25</abbr>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://doi.org/10.4230/LIPIcs.AFT.2025.2" class="ref-link">[doi]</a>&nbsp;&nbsp;<a href="https://ia.cr/2025/921" class="ref-link">[eprint]</a></small>
                 </li>
 
                 <br>
@@ -139,7 +99,7 @@
                 <li id="paper-2">
                     <span class="conference"><strong>Non-interactive Blind Signatures: Post-quantum and Stronger Security</strong></span>
                     <br><small>F. Baldimtsi, J. Cheng, R. Goyal, A. Yadav</small><br>
-                    <small><abbr class="conf" title="30th IACR International Conference on the Theory and Application of Cryptology and Information Security">ASIACRYPT '24</abbr>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://doi.org/10.1007/978-981-96-0888-1_3" style="text-decoration: none; color:#6e77a5">[doi]</a>&nbsp;&nbsp;<a href="https://ia.cr/2024/614" style="text-decoration: none; color:#6e77a5">[eprint]</a></small>
+                    <small><abbr class="conf" title="30th IACR International Conference on the Theory and Application of Cryptology and Information Security">ASIACRYPT '24</abbr>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://doi.org/10.1007/978-981-96-0888-1_3" class="ref-link">[doi]</a>&nbsp;&nbsp;<a href="https://ia.cr/2024/614" class="ref-link">[eprint]</a></small>
                 </li>
 
                 <br>
@@ -147,15 +107,15 @@
                 <li id="paper-1">
                     <span class="conference"><strong>Universal Vector Commitments</strong></span>
                     <br><small>O. Acharya, F. Baldimtsi, S. Dov Gordon, D. McVicker, A. Yadav</small><br>
-                    <small><abbr class="conf" title="14th International Conference on Security and Cryptography for Networks">SCN '24</abbr>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://doi.org/10.1007/978-3-031-71070-4_8" style="text-decoration: none; color:#6e77a5">[doi]</a>&nbsp;&nbsp;<a href="https://ia.cr/2024/680" style="text-decoration: none; color:#6e77a5">[eprint]</a></small>
+                    <small><abbr class="conf" title="14th International Conference on Security and Cryptography for Networks">SCN '24</abbr>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://doi.org/10.1007/978-3-031-71070-4_8" class="ref-link">[doi]</a>&nbsp;&nbsp;<a href="https://ia.cr/2024/680" class="ref-link">[eprint]</a></small>
                 </li>
             </ol>
 
-            <h3 id="other" style="font-family:'Merriweather'">Other</h3>
-            <ol class="pubs-list" reversed="reversed" style="list-style-type:none;">
+            <h3 id="other" class="serif-heading">Other</h3>
+            <ol class="pubs-list" reversed="reversed">
                 <li id="other-3">
                     <span class="other"><strong>Non-interactive Protocols for Blind Digital Signatures</strong></span>
-                    <br><small> Doctoral Dissertation &nbsp;&nbsp;&nbsp;&nbsp;<a href="#" style="text-decoration: none; color:#6e77a5">[doi]</a>&nbsp;&nbsp;<a href="./docs//ayadav-dissertation.pdf" style="text-decoration: none; color:#6e77a5">[pdf]</a></small>
+                    <br><small> Doctoral Dissertation &nbsp;&nbsp;&nbsp;&nbsp;<a href="#" class="ref-link">[doi]</a>&nbsp;&nbsp;<a href="./docs//ayadav-dissertation.pdf" class="ref-link">[pdf]</a></small>
                 </li>
             </ol>
             <br><hr><br>
