@@ -92,6 +92,7 @@ a.title:hover {
 
 .photo {
     height: 10em;
+    background-color: #232635;
     pointer-events: none;
 }
 
