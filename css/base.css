@@ -7,7 +7,7 @@ body {
 
 .content {
     margin: auto;
-    padding: 10px;
+    padding: 10px 20px;
 }
 
 .center {
@@ -15,7 +15,6 @@ body {
 }
 
 p {
-    max-width: 90%;
     line-height: 1.5;
     word-wrap: break-word;
 }
@@ -82,6 +81,14 @@ a.title:hover {
     height: 2em;
 }
 
+.icon-stroke {
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2px;
+    stroke-linecap: butt;
+    stroke-linejoin: round;
+}
+
 .accent {
     color: #6e77a5;
 }
@@ -91,7 +98,7 @@ a.title:hover {
 }
 
 .photo {
-    height: 10em;
+    height: 8em;
     background-color: #232635;
     pointer-events: none;
 }
