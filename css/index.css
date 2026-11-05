@@ -44,6 +44,11 @@ body {
     margin: 6px 0;
 }
 
+.callout-label {
+    font-weight: bold;
+    color: #6e77a5;
+}
+
 .callout-alert {
     background: rgba(224, 138, 63, 0.12);
     border-color: rgba(224, 138, 63, 0.45);
